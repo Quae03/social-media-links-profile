@@ -1,1 +1,1 @@
-# social-media-links-profile
+A HTML & CSS project to display my social media links

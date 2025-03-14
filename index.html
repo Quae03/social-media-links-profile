@@ -24,19 +24,42 @@
     .content {
       background-color: hsl(0, 0%, 12%);
       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin: 0 auto;
       width: 25%;
       padding: 30px;
-      margin-top: 150px;
-    }    
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
     .content * {
       text-align: center;
+      min-width: 136px;
+    }
+    img {
+      border-radius: 50%;
+      aspect-ratio: 1/1.2;
+      object-fit: cover;
+      object-position: 0px -5px;
+      height: auto;
+      margin-bottom: 10px;
+      width: 50%;
+    }
+    h2 {
+      margin: 0;
     }
     h4 {
       color: hsl(75, 94%, 57%);
+      margin-top: 10px;
     }
     .links-div {
-      
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .links-div div {
+      max-height: 150px;
     }
     .links-div * {
       background-color: rgb(61, 59, 59);
@@ -48,25 +71,23 @@
     a {
       text-decoration: none;
       color: white;
-      transition: 1s;
     }
     a:hover {
-      text-decoration: underline;
+      background-color: hsl(75, 94%, 57%);
+      color: #000;
     }
   </style>
 </head>
 <body>
   <div class="content">
-    <img src="" alt="">
+    <img src="assets/images/self-portrait.jpg" alt="Profile photo">
     <h2>Quaelan Sayers</h2>
     <h4>KwaZulu-Natal, South Africa</h4>
-    <p>"Front-end developer and avid reader."</p>
+    <p>"Front-end developer and avid breather of oxygen."</p>
     <div class="links-div">
-      <div><a href="">GitHub</a></div>
-      <div><a href="">LinkedIn</a></div>
-      <div><a href="">Twitter</a></div>
-      <div><a href="">Instagram</a></div>
-      <div><a href="">Frontend Mentor</a></div>
+      <a href="https://x.com/quaefrmda6ix">Twitter</a>
+      <a href="https://github.com/Quae03?tab=repositories">GitHub</a>
+      <a href="https://www.frontendmentor.io/profile/Quae03">Frontend Mentor</a>
     </div>
   </div>
 </body>
